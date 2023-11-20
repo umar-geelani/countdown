@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.countdown {
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+}
+
+#timer div {
+    margin: 0 10px;
+}
+
+#timer span {
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 14px;
+    margin-top: 5px;
+}
